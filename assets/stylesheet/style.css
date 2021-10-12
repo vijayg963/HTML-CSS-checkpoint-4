@@ -408,7 +408,6 @@ h3 {
   left: 0;
   right: 0;
   bottom: 50%;
-  
 }
 .about-us {
   margin-top: 45vh;
@@ -1166,7 +1165,6 @@ form {
     font-size: 10px;
   }
 
-
   form {
     width: 100%;
     padding: 1rem;
@@ -1182,7 +1180,7 @@ form {
     display: inline-block;
     width: 100%;
   }
-  
+
   .square-top {
     top: 90%;
   }
@@ -1191,31 +1189,31 @@ form {
     padding: 0.1rem;
   }
 
-  .values-img{
+  .values-img {
     display: inline-block;
   }
 
-  .display-row{
-    flex-direction: column
-  }
- 
-  .service-bt{
+  .display-row {
     flex-direction: column;
   }
 
-  .service-col{
+  .service-bt {
+    flex-direction: column;
+  }
+
+  .service-col {
     margin: 1rem;
   }
 
-  .flex-row{
+  .flex-row {
     flex-direction: column;
   }
 
-  .clients-id{
+  .clients-id {
     padding: 1rem;
   }
 
-  header{
+  header {
     position: relative;
   }
 
@@ -1225,21 +1223,19 @@ form {
     right: 10px;
     top: -450px;
     bottom: 60px;
-
   }
 
- .float {
-   margin-top: 700px;
-   display: inline-block;
-   flex-direction: column;
- }
- .about-us{
-   margin-top: 800px;
- }
+  .float {
+    margin-top: 700px;
+    display: inline-block;
+    flex-direction: column;
+  }
+  .about-us {
+    margin-top: 1100px;
+  }
 
-.flex-row{
-  display: inline-table;
-  flex-direction: column;
-}
-
+  .flex-row {
+    display: inline-table;
+    flex-direction: column;
+  }
 }
